@@ -189,15 +189,19 @@ sequenceDiagram
 
 ## 🧪 Testing
 
-The project includes a functional test suite to verify all API endpoints.
+The project includes a robust testing suite.
 
-### Running Tests
-1. Ensure the server is running: `python manage.py runserver`
-2. Open a new terminal and run:
+### Standard Django Tests (Recommended)
+Run these to verify the backend logic using isolated test databases:
+```bash
+python manage.py test api
+```
+
+### Functional Request Tests (External)
+Ensure the server is running (`python manage.py runserver`) then run:
 ```bash
 python run_tests_final.py
 ```
-*The script automatically handles user registration, login, and data mapping tests.*
 
 
 
