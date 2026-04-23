@@ -41,7 +41,6 @@ healthcare_backend/
 │   ├── urls.py
 ├── .env.example
 ├── requirements.txt
-├── run_tests_final.py
 └── manage.py
 
 
@@ -197,11 +196,6 @@ Run these to verify the backend logic using isolated test databases:
 python manage.py test api
 ```
 
-### Functional Request Tests (External)
-Ensure the server is running (`python manage.py runserver`) then run:
-```bash
-python run_tests_final.py
-```
 
 
 
