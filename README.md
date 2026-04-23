@@ -41,7 +41,9 @@ healthcare_backend/
 │   ├── urls.py
 ├── .env.example
 ├── requirements.txt
+├── run_tests_final.py
 └── manage.py
+
 
 ---
 
@@ -182,6 +184,21 @@ sequenceDiagram
         M-->>C: Error Response (401 Unauthorized)
     end
 ```
+
+---
+
+## 🧪 Testing
+
+The project includes a functional test suite to verify all API endpoints.
+
+### Running Tests
+1. Ensure the server is running: `python manage.py runserver`
+2. Open a new terminal and run:
+```bash
+python run_tests_final.py
+```
+*The script automatically handles user registration, login, and data mapping tests.*
+
 
 
 ## Notes
